@@ -19,7 +19,9 @@ INSERT INTO Orders(OrderID, MenuID, BookingID, BillAmount, Quantity) VALUES
 (1, 3, 2, 24,3),
 (2, 6, 1, 5, 1),
 (3, 14, 3, 90, 3),
-(4, 17, 4, 34, 2);
+(4, 17, 4, 34, 2),
+(5, 14, 4, 300, 10),
+(6, 13, 5, 200, 8);
 
 #Menu Table
 INSERT INTO Menu (MenuID, Cuisine, ItemName, Type, Price) VALUES
